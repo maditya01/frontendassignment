@@ -8,14 +8,16 @@ import { useNavigate } from 'react-router-dom';
 const Employee = ({ setEmployeeId, employee, allEmployees, setAllEmployees }) => {
     const navigate = useNavigate();
     const iconClick = () => {
-        setEmployeeId(employee.Id)
-        navigate(`/updateEmployee/${employee.Id}`);
+        console.log('edit icon clicked!!!')
+        console.log(employee.id)
+        setEmployeeId(employee.id)
+        navigate(`/updateEmployee/${employee.id}`);
     }
 
     const deleteClick = async () => {
-        axios.delete(`https://localhost:7067/DeleteEmployee/${employee.Id}`).
+        axios.delete(`https://localhost:7067/DeleteEmployee/${employee.id}`).
             then((response) => {
-                const remainemployee = allEmployees.filter((femployee) => femployee.Id !== employee.Id)
+                const remainemployee = allEmployees.filter((femployee) => femployee.id !== employee.id)
                 setAllEmployees(remainemployee);
             }).
             catch((error) => {
@@ -43,19 +45,19 @@ const Employee = ({ setEmployeeId, employee, allEmployees, setAllEmployees }) =>
                 </div>
                 <div className='border-solid flex justify-between'>
                     <h1 className="text-xl font-bold">Id- </h1>
-                    <div className="truncate">{employee.Id}</div>
+                    <div className="truncate">{employee.id}</div>
                 </div>
                 <div className='border-solid flex justify-between'>
                     <h1 className="text-xl font-bold ">Employee name - </h1>
-                    <div className="truncate">{employee.Employee_name}</div>
+                    <div className="truncate">{employee.employee_name}</div>
                 </div>
                 <div className='border-solid flex justify-between'>
                     <h1 className="text-xl font-bold">Employee age- </h1>
-                    <div className="truncate">{employee.Employee_age}</div>
+                    <div className="truncate">{employee.employee_age}</div>
                 </div>
                 <div className='border-solid flex justify-between'>
                     <h1 className="text-xl font-bold">Employee salary- </h1>
-                    <div className="truncate">{employee.Employee_salary}</div>
+                    <div className="truncate">{employee.employee_salary}</div>
                 </div>
                 {/* <div className='border-solid flex justify-between'>
           <h1 className="text-xl font-bold">Employee age- </h1>

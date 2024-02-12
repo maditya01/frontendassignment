@@ -1,6 +1,0 @@
-@EMPN0739_HostAddress = http://localhost:5296
-
-GET {{EMPN0739_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###

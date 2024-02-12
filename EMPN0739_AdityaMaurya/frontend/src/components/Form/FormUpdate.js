@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import axios from 'axios'
 import { Navigate, useNavigate } from 'react-router-dom'
-const FormUpdate = ({ employeeId,url }) => {
+const FormUpdate = ({employeeId, url }) => {
     const navigate = useNavigate();
     const [employeeData, setEmployeeData] = useState({
         Id: "",
@@ -10,25 +10,31 @@ const FormUpdate = ({ employeeId,url }) => {
         Profile_image: "",
         Employee_salary: ""
     })
+    // console.log(employeeData)
     function getData() {
+        console.log('hello world')
+        console.log(employeeId)
         axios.get(`https://localhost:7067/GetEmployee/${employeeId}`).
             then((res) => {
-                const data = res.data.data[0]
-                setEmployeeData({ Id: data.Id, Employee_name: data.Employee_name, Employee_age: data.Employee_age, Employee_salary: data.Employee_salary })
+                const data = res.data;
+                setEmployeeData({ Id: data.id, Employee_name: data.employee_name, Employee_age: data.employee_age, Employee_salary: data.employee_salary })
             }).
             catch((error) => {
-                const message = error.response.data.message;
+                const message = error;
+                console.log(error)
                 navigate('/errorHandler', { state: { message } })
             })
     }
     useEffect(() => {
         getData();
     }, [])
+
     const submitHandler = (e) => {
         e.preventDefault();
-        axios.patch(`https://localhost:7067/UpdateEmployee/${employeeId}`, employeeData).
+        axios.put(`https://localhost:7067/UpdateEmployee/${employeeId}`, employeeData).
             then((response) => {
-                navigate('/')
+                console.log(response)
+                navigate('/getAllEmployees')
             }).
             catch((error) => {
                 const message = error.response.data.message;

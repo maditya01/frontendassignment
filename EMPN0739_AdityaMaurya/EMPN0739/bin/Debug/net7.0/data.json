@@ -1,1 +1,170 @@
-[{"Id":1,"Employee_name":"Tiger Nixon","Employee_age":61,"Profile_image":"","Employee_salary":320800},{"Id":2,"Employee_name":"Garrett Winters","Employee_age":63,"Profile_image":"","Employee_salary":170750},{"Id":3,"Employee_name":"Ashton Cox","Employee_age":66,"Profile_image":"","Employee_salary":86000},{"Id":4,"Employee_name":"Cedric Kelly","Employee_age":22,"Profile_image":"","Employee_salary":433060},{"Id":5,"Employee_name":"Airi Satou","Employee_age":33,"Profile_image":"","Employee_salary":162700},{"Id":6,"Employee_name":"Brielle Williamson","Employee_age":61,"Profile_image":"","Employee_salary":372000},{"Id":7,"Employee_name":"Herrod Chandler","Employee_age":59,"Profile_image":"","Employee_salary":137500},{"Id":8,"Employee_name":"Rhona Davidson","Employee_age":55,"Profile_image":"","Employee_salary":327900},{"Id":9,"Employee_name":"Colleen Hurst","Employee_age":39,"Profile_image":"","Employee_salary":205500},{"Id":10,"Employee_name":"Sonya Frost","Employee_age":23,"Profile_image":"","Employee_salary":103600},{"Id":11,"Employee_name":"Jena Gaines","Employee_age":30,"Profile_image":"","Employee_salary":90560},{"Id":12,"Employee_name":"Quinn Flynn","Employee_age":22,"Profile_image":"","Employee_salary":342000},{"Id":13,"Employee_name":"Charde Marshall","Employee_age":36,"Profile_image":"","Employee_salary":470600},{"Id":14,"Employee_name":"Haley Kennedy","Employee_age":43,"Profile_image":"","Employee_salary":313500},{"Id":15,"Employee_name":"Tatyana Fitzpatrick","Employee_age":19,"Profile_image":"","Employee_salary":385750},{"Id":16,"Employee_name":"Michael Silva","Employee_age":66,"Profile_image":"","Employee_salary":198500},{"Id":17,"Employee_name":"Paul Byrd","Employee_age":64,"Profile_image":"","Employee_salary":725000},{"Id":18,"Employee_name":"Gloria Little","Employee_age":59,"Profile_image":"","Employee_salary":237500},{"Id":19,"Employee_name":"Bradley Greer","Employee_age":41,"Profile_image":"","Employee_salary":132000},{"Id":20,"Employee_name":"Dai Rios","Employee_age":35,"Profile_image":"","Employee_salary":217500},{"Id":21,"Employee_name":"Jenette Caldwell","Employee_age":30,"Profile_image":"","Employee_salary":345000},{"Id":22,"Employee_name":"Yuri Berry","Employee_age":40,"Profile_image":"","Employee_salary":675000},{"Id":23,"Employee_name":"Caesar Vance","Employee_age":21,"Profile_image":"","Employee_salary":106450},{"Id":24,"Employee_name":"Doris Wilder","Employee_age":23,"Profile_image":"","Employee_salary":85600}]
+[
+  {
+    "Id": 2,
+    "Employee_name": "Garrett Winters",
+    "Employee_age": 63,
+    "Profile_image": "",
+    "Employee_salary": 170750
+  },
+  {
+    "Id": 3,
+    "Employee_name": "string",
+    "Employee_age": 0,
+    "Profile_image": "",
+    "Employee_salary": 0
+  },
+  {
+    "Id": 4,
+    "Employee_name": "Cedric Kelly",
+    "Employee_age": 22,
+    "Profile_image": "",
+    "Employee_salary": 433060
+  },
+  {
+    "Id": 5,
+    "Employee_name": "Airi Satou",
+    "Employee_age": 33,
+    "Profile_image": "",
+    "Employee_salary": 162700
+  },
+  {
+    "Id": 6,
+    "Employee_name": "Brielle Williamson",
+    "Employee_age": 61,
+    "Profile_image": "",
+    "Employee_salary": 372000
+  },
+  {
+    "Id": 7,
+    "Employee_name": "Herrod Chandler",
+    "Employee_age": 59,
+    "Profile_image": "",
+    "Employee_salary": 137500
+  },
+  {
+    "Id": 8,
+    "Employee_name": "Rhona Davidson",
+    "Employee_age": 55,
+    "Profile_image": "",
+    "Employee_salary": 327900
+  },
+  {
+    "Id": 9,
+    "Employee_name": "Colleen Hurst",
+    "Employee_age": 39,
+    "Profile_image": "",
+    "Employee_salary": 205500
+  },
+  {
+    "Id": 10,
+    "Employee_name": "Sonya Frost",
+    "Employee_age": 23,
+    "Profile_image": "",
+    "Employee_salary": 103600
+  },
+  {
+    "Id": 11,
+    "Employee_name": "Jena Gaines",
+    "Employee_age": 30,
+    "Profile_image": "",
+    "Employee_salary": 90560
+  },
+  {
+    "Id": 12,
+    "Employee_name": "Quinn Flynn",
+    "Employee_age": 22,
+    "Profile_image": "",
+    "Employee_salary": 342000
+  },
+  {
+    "Id": 13,
+    "Employee_name": "Charde Marshall",
+    "Employee_age": 36,
+    "Profile_image": "",
+    "Employee_salary": 470600
+  },
+  {
+    "Id": 14,
+    "Employee_name": "Haley Kennedy",
+    "Employee_age": 43,
+    "Profile_image": "",
+    "Employee_salary": 313500
+  },
+  {
+    "Id": 15,
+    "Employee_name": "Tatyana Fitzpatrick",
+    "Employee_age": 19,
+    "Profile_image": "",
+    "Employee_salary": 385750
+  },
+  {
+    "Id": 16,
+    "Employee_name": "Michael Silva",
+    "Employee_age": 66,
+    "Profile_image": "",
+    "Employee_salary": 198500
+  },
+  {
+    "Id": 17,
+    "Employee_name": "Paul Byrd",
+    "Employee_age": 64,
+    "Profile_image": "",
+    "Employee_salary": 725000
+  },
+  {
+    "Id": 18,
+    "Employee_name": "Gloria Little",
+    "Employee_age": 59,
+    "Profile_image": "",
+    "Employee_salary": 237500
+  },
+  {
+    "Id": 19,
+    "Employee_name": "Bradley Greer",
+    "Employee_age": 41,
+    "Profile_image": "",
+    "Employee_salary": 132000
+  },
+  {
+    "Id": 20,
+    "Employee_name": "Dai Rios",
+    "Employee_age": 35,
+    "Profile_image": "",
+    "Employee_salary": 217500
+  },
+  {
+    "Id": 21,
+    "Employee_name": "Jenette Caldwell",
+    "Employee_age": 30,
+    "Profile_image": "",
+    "Employee_salary": 345000
+  },
+  {
+    "Id": 22,
+    "Employee_name": "Yuri Berry",
+    "Employee_age": 40,
+    "Profile_image": "",
+    "Employee_salary": 675000
+  },
+  {
+    "Id": 23,
+    "Employee_name": "Caesar Vance",
+    "Employee_age": 21,
+    "Profile_image": "",
+    "Employee_salary": 106450
+  },
+  {
+    "Id": 24,
+    "Employee_name": "Doris Wilder",
+    "Employee_age": 23,
+    "Profile_image": "",
+    "Employee_salary": 85600
+  },
+  {
+    "Id": 54,
+    "Employee_name": "aditya",
+    "Employee_age": 22,
+    "Profile_image": "",
+    "Employee_salary": 50
+  }
+]

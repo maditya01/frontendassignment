@@ -68,3 +68,4 @@ C:\Users\20820\OneDrive\Documents\assignment\frontendassignment\EMPN0739_AdityaM
 C:\Users\20820\OneDrive\Documents\assignment\frontendassignment\EMPN0739_AdityaMaurya\EMPN0739\obj\Debug\net7.0\EMPN0739.pdb
 C:\Users\20820\OneDrive\Documents\assignment\frontendassignment\EMPN0739_AdityaMaurya\EMPN0739\obj\Debug\net7.0\EMPN0739.genruntimeconfig.cache
 C:\Users\20820\OneDrive\Documents\assignment\frontendassignment\EMPN0739_AdityaMaurya\EMPN0739\obj\Debug\net7.0\ref\EMPN0739.dll
+C:\Users\v-adimaurya\Desktop\frontend\EMPN0739_AdityaMaurya\EMPN0739\obj\Debug\net7.0\EMPN0739.sourcelink.json

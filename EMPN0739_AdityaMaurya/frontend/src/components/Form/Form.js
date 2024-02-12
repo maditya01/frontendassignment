@@ -3,7 +3,7 @@ import { useLocation, useNavigate } from "react-router-dom";
 
 import axios from 'axios';
 const Form = ({ setNewEmployee,url }) => {
-    let path = "Add New Employee";
+    let path = "Add New Employee Do not add Existing employee ID";
     const [employeeData, setEmployeeData] = useState({
         Id: "",
         Employee_name: "",
@@ -14,7 +14,8 @@ const Form = ({ setNewEmployee,url }) => {
     const navigate = useNavigate();
     const submitHandler = (e) => {
         e.preventDefault();
-        axios.post('https://localhost:7067/AddNewEmployee/', employeeData)
+        console.log(e)
+        axios.post('https://localhost:7067/AddEmployee/', employeeData)
             .then(response => {
                 setNewEmployee({ employeeData });
                 setEmployeeData({
@@ -24,11 +25,11 @@ const Form = ({ setNewEmployee,url }) => {
                     Profile_image: "",
                     Employee_salary: ""
                 });
-                navigate('/')
+                navigate('/getAllEmployees')
             })
             .catch(error => {
-                const message = error.response.data.message;
-                navigate('/errorHandler', { state: { message } })
+                console.log(error)
+                navigate('/errorHandler', { state: { error } })
             });
         /*useState is asynchronous so here you can not get the updateed taskList array 
         you can use useEffect to see the taskList.

@@ -30,46 +30,15 @@ namespace EMPN0739.Controllers
         [Route("/GetEmployees")]
         public async Task<IActionResult> GetEmployees()
         {
-            string baseURL = "https://dummy.restapiexample.com/api/v1/employees";
+            List<Employee> employees = LoadDataFromJson();
 
-            using (var client = new HttpClient())
+            if (employees.Any())
             {
-                client.BaseAddress = new Uri(baseURL);
-
-                try
-                {
-                    HttpResponseMessage response = await client.GetAsync("");
-
-                    if (response.IsSuccessStatusCode)
-                    {
-                        string data = await response.Content.ReadAsStringAsync();
-
-                        try
-                        {
-                            JObject json = JObject.Parse(data);
-                            
-                            List<Employee> employees = JsonConvert.DeserializeObject<List<Employee>>(json["data"].ToString());
-                            Console.WriteLine(employees);
-                            SaveDataToJson(employees);
-                            return Json(employees);
-                        }
-                        catch (JsonReaderException)
-                        {
-                            // Handle JSON parsing errors
-                            return BadRequest("Failed to parse JSON data.");
-                        }
-                    }
-                    else
-                    {
-                        // Handle other HTTP status codes
-                        return StatusCode((int)response.StatusCode, $"Failed to retrieve employees. Status code: {response.StatusCode}");
-                    }
-                }
-                catch (HttpRequestException ex)
-                {
-                    // Handle request exceptions (e.g., network issues)
-                    return BadRequest($"Failed to retrieve employees. Exception: {ex.Message}");
-                }
+                return Json(employees);
+            }
+            else
+            {
+                return NotFound("No employees found.");
             }
         }
 
@@ -77,40 +46,16 @@ namespace EMPN0739.Controllers
         [Route("/GetEmployee/{id}")]
         public async Task<IActionResult> GetEmployee(int id)
         {
-            string baseURL = $"https://dummy.restapiexample.com/api/v1/employee/{id}";
+            List<Employee> employees = LoadDataFromJson();
+            Employee employee = employees.Find(e => e.Id == id);
 
-            using (var client = new HttpClient())
+            if (employee != null)
             {
-                client.BaseAddress = new Uri(baseURL);
-
-                HttpResponseMessage response = await client.GetAsync("");
-
-                if (response.IsSuccessStatusCode)
-                {
-                    string data = await response.Content.ReadAsStringAsync();
-
-                    try
-                    {
-                        JObject json = JObject.Parse(data);
-                        Employee employee = JsonConvert.DeserializeObject<Employee>(json["data"].ToString());
-                        
-                        return Json(employee);
-                    }
-                    catch (JsonReaderException)
-                    {
-                        // Handle JSON parsing errors
-                        return BadRequest("Failed to parse JSON data.");
-                    }
-                }
-                else if (response.StatusCode == System.Net.HttpStatusCode.NotFound)
-                {
-                    return NotFound($"Employee with ID {id} not found.");
-                }
-                else
-                {
-                    // Handle other HTTP status codes
-                    return StatusCode((int)response.StatusCode, $"Failed to retrieve employee. Status code: {response.StatusCode}");
-                }
+                return Json(employee);
+            }
+            else
+            {
+                return NotFound($"Employee with ID {id} not found.");
             }
         }
 

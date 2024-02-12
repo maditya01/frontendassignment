@@ -12,12 +12,13 @@ function App() {
   const [newEmployee, setNewEmployee] = useState(null);
   const [employeeId, setEmployeeId] = useState(null);
   const message = "Invalid path";
+
   return (
     <Routes>
       <Route path="/" element={<Screen />}></Route>
-      <Route path="/getAllEmployee" element = {<Home setEmployeeId={setEmployeeId} newEmployee={newEmployee} url={url} />}></Route>
+      <Route path="/getAllEmployees" element = {<Home setEmployeeId={setEmployeeId} newEmployee={newEmployee} url={url} />}></Route>
       <Route path="/addNewEmployee" element={<Form setNewEmployee={setNewEmployee}  url={url} />}></Route>
-      <Route path="/updateEmployee/:id" element ={<FormUpdate EmployeeId={employeeId} url={url}  />}></Route>
+      <Route path="/updateEmployee/:id" element ={<FormUpdate employeeId={employeeId} url={url}  />}></Route>
       <Route path="/errorHandler" element={<ErrorHandler message={message} />}></Route>
       <Route path="*" element={<Navigate to="/errorHandler" />} />
     </Routes>
