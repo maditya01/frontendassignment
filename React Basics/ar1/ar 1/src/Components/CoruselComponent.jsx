@@ -9,7 +9,10 @@ const CoruselComponent = () => {
         }}><div id="carouselExample" className="carousel slide" style={{
             height: '60%'
         }}>
-                <div className="carousel-inner" >
+                <div style={{
+                marginLeft:'30px',
+                padding:'15px'
+                }} className="carousel-inner" >
                     <div className="carousel-item active" style={{
                         paddingTop: '100px',
                         paddingLeft: '130px'

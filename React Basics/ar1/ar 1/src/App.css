@@ -170,8 +170,8 @@ section > h1{
 	margin-left: auto;
 	white-space: nowrap; /* Prevent the copyright link from wrapping to the next line */
   }
-  
-  
+
+
 
 @media only screen and (max-width: 576px) {
 	html {

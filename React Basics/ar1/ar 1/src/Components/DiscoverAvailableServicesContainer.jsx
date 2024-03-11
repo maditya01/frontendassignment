@@ -10,13 +10,13 @@ const DiscoverAvailableServicesContainer = () => {
   const year = currentDate.getFullYear();
 
 	return (
-		<div style={{backgroundColor:'green'}}>
+		<div style={{}}>
 			<section class="sect1 container px-6">
 				<h1>
 					Discover available services
 				</h1>
-				<div style={{backgroundColor:'black'}} class="container">
-					<div style={{backgroundColor:'blue'}} class="row gx-5">
+				<div style={{}} class="container">
+					<div style={{}} class="row gx-5">
 						<div class="col-sm">
 							<div class="column-cell p-3" id="day">
 								<h1>

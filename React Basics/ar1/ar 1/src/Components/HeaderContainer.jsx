@@ -7,7 +7,7 @@ import userpng from './user.png'
 import Polygon1 from '../assets/Polygon 1.svg'
 import Path23 from "../assets/Path 23.svg"
 import './HeaderContainer.css'
-
+//`url(${Rectangle35})`
 
 const HeaderContainer = () => {
     const divStyle = {
@@ -23,7 +23,6 @@ const HeaderContainer = () => {
         <div style={divStyle}>
             <header style={{
                 padding: '4px',
-                backgroundColor: 'grey',
                 display: 'flex',
                 justifyContent: 'space-between',
                 alignItems: 'center',
@@ -40,7 +39,8 @@ const HeaderContainer = () => {
                     <li>ContactUs</li>
                 </ul>
                 <section style={{
-                    width: '40%',
+                    width: '30%',
+                    borderRadius:'10px',
                     backgroundColor: 'white'
                 }}>
                     <SearchContainer />

@@ -1,11 +1,14 @@
 import React from 'react';
 import Path23 from '../../assets/Path 23.svg';
-
+import { useState } from 'react';
 const SearchContainer = () => {
+    const [inputT, setInputT] = useState("")
+    
     const handleSearch = (event) => {
         event.preventDefault(); // Prevents the default form submission behavior
         const searchInput = document.getElementById('search');
         const query = searchInput.value;
+        setInputT("")
         // Open a new tab with Edge browser and construct the search URL
         window.open(`https://www.bing.com/search?q=${query}`, '_blank');
     };
@@ -17,14 +20,14 @@ const SearchContainer = () => {
                 name="search"
                 type="text"
                 style={{
-                    width: '60%',
+                    width: '90%',
                     padding: '4px',
-                    borderRadius: '4px',
+                    border: 'none'
                 }}
                 placeholder="Search"
             />
             <label htmlFor="search">
-                <img src={Path23} alt="Search" onClick={handleSearch} style={{ cursor: 'pointer' }} />
+                <img src={Path23} alt="Search" onClick={handleSearch} style={{ transform: 'rotate(170deg)', cursor: 'pointer' }} />
             </label>
         </form>
     );

@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\20820\\OneDrive\\Documents\\assignment\\frontendassignment\\EMPN0739_AdityaMaurya\\EMPN0739\\EMPN0739.csproj": {}
+    "C:\\Users\\v-adimaurya\\Desktop\\frontend\\Web and REST API assignment\\EMPN0739_AdityaMaurya\\EMPN0739\\EMPN0739.csproj": {}
   },
   "projects": {
-    "C:\\Users\\20820\\OneDrive\\Documents\\assignment\\frontendassignment\\EMPN0739_AdityaMaurya\\EMPN0739\\EMPN0739.csproj": {
+    "C:\\Users\\v-adimaurya\\Desktop\\frontend\\Web and REST API assignment\\EMPN0739_AdityaMaurya\\EMPN0739\\EMPN0739.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\20820\\OneDrive\\Documents\\assignment\\frontendassignment\\EMPN0739_AdityaMaurya\\EMPN0739\\EMPN0739.csproj",
+        "projectUniqueName": "C:\\Users\\v-adimaurya\\Desktop\\frontend\\Web and REST API assignment\\EMPN0739_AdityaMaurya\\EMPN0739\\EMPN0739.csproj",
         "projectName": "EMPN0739",
-        "projectPath": "C:\\Users\\20820\\OneDrive\\Documents\\assignment\\frontendassignment\\EMPN0739_AdityaMaurya\\EMPN0739\\EMPN0739.csproj",
-        "packagesPath": "C:\\Users\\20820\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\20820\\OneDrive\\Documents\\assignment\\frontendassignment\\EMPN0739_AdityaMaurya\\EMPN0739\\obj\\",
+        "projectPath": "C:\\Users\\v-adimaurya\\Desktop\\frontend\\Web and REST API assignment\\EMPN0739_AdityaMaurya\\EMPN0739\\EMPN0739.csproj",
+        "packagesPath": "C:\\Users\\v-adimaurya\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\v-adimaurya\\Desktop\\frontend\\Web and REST API assignment\\EMPN0739_AdityaMaurya\\EMPN0739\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\20820\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\v-adimaurya\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -78,7 +83,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }
