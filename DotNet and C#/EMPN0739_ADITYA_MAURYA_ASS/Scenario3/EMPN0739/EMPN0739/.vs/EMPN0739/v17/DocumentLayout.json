@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\v-adimaurya\\Desktop\\frontend\\DotNet and C#\\EMPN0739_ADITYA_MAURYA_ASS\\Scenario3\\EMPN0739\\EMPN0739\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0ED25317-0749-4A94-9C47-2FA73CD1D71B}|EMPN0739.csproj|c:\\users\\v-adimaurya\\desktop\\frontend\\dotnet and c#\\empn0739_aditya_maurya_ass\\scenario3\\empn0739\\empn0739\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0ED25317-0749-4A94-9C47-2FA73CD1D71B}|EMPN0739.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0ED25317-0749-4A94-9C47-2FA73CD1D71B}|EMPN0739.csproj|c:\\users\\v-adimaurya\\desktop\\frontend\\dotnet and c#\\empn0739_aditya_maurya_ass\\scenario3\\empn0739\\empn0739\\pages\\client\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0ED25317-0749-4A94-9C47-2FA73CD1D71B}|EMPN0739.csproj|solutionrelative:pages\\client\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0ED25317-0749-4A94-9C47-2FA73CD1D71B}|EMPN0739.csproj|c:\\users\\v-adimaurya\\desktop\\frontend\\dotnet and c#\\empn0739_aditya_maurya_ass\\scenario3\\empn0739\\empn0739\\pages\\client\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0ED25317-0749-4A94-9C47-2FA73CD1D71B}|EMPN0739.csproj|solutionrelative:pages\\client\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0ED25317-0749-4A94-9C47-2FA73CD1D71B}|EMPN0739.csproj|c:\\users\\v-adimaurya\\desktop\\frontend\\dotnet and c#\\empn0739_aditya_maurya_ass\\scenario3\\empn0739\\empn0739\\pages\\client\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0ED25317-0749-4A94-9C47-2FA73CD1D71B}|EMPN0739.csproj|solutionrelative:pages\\client\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0ED25317-0749-4A94-9C47-2FA73CD1D71B}|EMPN0739.csproj|c:\\users\\v-adimaurya\\desktop\\frontend\\dotnet and c#\\empn0739_aditya_maurya_ass\\scenario3\\empn0739\\empn0739\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0ED25317-0749-4A94-9C47-2FA73CD1D71B}|EMPN0739.csproj|solutionrelative:pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0ED25317-0749-4A94-9C47-2FA73CD1D71B}|EMPN0739.csproj|c:\\users\\v-adimaurya\\desktop\\frontend\\dotnet and c#\\empn0739_aditya_maurya_ass\\scenario3\\empn0739\\empn0739\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0ED25317-0749-4A94-9C47-2FA73CD1D71B}|EMPN0739.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0ED25317-0749-4A94-9C47-2FA73CD1D71B}|EMPN0739.csproj|c:\\users\\v-adimaurya\\desktop\\frontend\\dotnet and c#\\empn0739_aditya_maurya_ass\\scenario3\\empn0739\\empn0739\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0ED25317-0749-4A94-9C47-2FA73CD1D71B}|EMPN0739.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\v-adimaurya\\Desktop\\frontend\\DotNet and C#\\EMPN0739_ADITYA_MAURYA_ASS\\Scenario3\\EMPN0739\\EMPN0739\\Pages\\Client\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Client\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\v-adimaurya\\Desktop\\frontend\\DotNet and C#\\EMPN0739_ADITYA_MAURYA_ASS\\Scenario3\\EMPN0739\\EMPN0739\\Pages\\Client\\Index.cshtml.cs",
+              "RelativeToolTip": "Pages\\Client\\Index.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-12T13:49:15.238Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\v-adimaurya\\Desktop\\frontend\\DotNet and C#\\EMPN0739_ADITYA_MAURYA_ASS\\Scenario3\\EMPN0739\\EMPN0739\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\v-adimaurya\\Desktop\\frontend\\DotNet and C#\\EMPN0739_ADITYA_MAURYA_ASS\\Scenario3\\EMPN0739\\EMPN0739\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-12T13:47:27.278Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\v-adimaurya\\Desktop\\frontend\\DotNet and C#\\EMPN0739_ADITYA_MAURYA_ASS\\Scenario3\\EMPN0739\\EMPN0739\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "C:\\Users\\v-adimaurya\\Desktop\\frontend\\DotNet and C#\\EMPN0739_ADITYA_MAURYA_ASS\\Scenario3\\EMPN0739\\EMPN0739\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-03-12T13:42:51.784Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\v-adimaurya\\Desktop\\frontend\\DotNet and C#\\EMPN0739_ADITYA_MAURYA_ASS\\Scenario3\\EMPN0739\\EMPN0739\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\v-adimaurya\\Desktop\\frontend\\DotNet and C#\\EMPN0739_ADITYA_MAURYA_ASS\\Scenario3\\EMPN0739\\EMPN0739\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-03-12T13:42:32.658Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\v-adimaurya\\Desktop\\frontend\\DotNet and C#\\EMPN0739_ADITYA_MAURYA_ASS\\Scenario3\\EMPN0739\\EMPN0739\\Pages\\Client\\Create.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Client\\Create.cshtml",
+              "ToolTip": "C:\\Users\\v-adimaurya\\Desktop\\frontend\\DotNet and C#\\EMPN0739_ADITYA_MAURYA_ASS\\Scenario3\\EMPN0739\\EMPN0739\\Pages\\Client\\Create.cshtml",
+              "RelativeToolTip": "Pages\\Client\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-12T13:42:14.856Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Create.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\v-adimaurya\\Desktop\\frontend\\DotNet and C#\\EMPN0739_ADITYA_MAURYA_ASS\\Scenario3\\EMPN0739\\EMPN0739\\Pages\\Client\\Create.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Client\\Create.cshtml.cs",
+              "ToolTip": "C:\\Users\\v-adimaurya\\Desktop\\frontend\\DotNet and C#\\EMPN0739_ADITYA_MAURYA_ASS\\Scenario3\\EMPN0739\\EMPN0739\\Pages\\Client\\Create.cshtml.cs",
+              "RelativeToolTip": "Pages\\Client\\Create.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-12T13:42:06.521Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\v-adimaurya\\Desktop\\frontend\\DotNet and C#\\EMPN0739_ADITYA_MAURYA_ASS\\Scenario3\\EMPN0739\\EMPN0739\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\v-adimaurya\\Desktop\\frontend\\DotNet and C#\\EMPN0739_ADITYA_MAURYA_ASS\\Scenario3\\EMPN0739\\EMPN0739\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-12T13:28:17.689Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
