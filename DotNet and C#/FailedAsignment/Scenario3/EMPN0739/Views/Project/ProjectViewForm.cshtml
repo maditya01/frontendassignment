@@ -1,0 +1,29 @@
+﻿@model string
+@{
+    ViewData["Title"] = "Project Page";
+}
+
+<div class="text-center">
+    @using (@Html.BeginForm(Model == "update" ? "UpdateProject" : "AddProject", "Project", FormMethod.Post))
+    {
+        <table>
+            <tr>
+                <td> ID </td>
+                <td> @Html.TextBox("id") </td>
+            </tr>
+            <tr>
+                <td> Name </td>
+                <td> @Html.TextBox("name") </td>
+            </tr>
+            <tr>
+                <td> Status </td>
+                <td> @Html.TextBox("status") </td>
+            </tr>
+            <tr>
+                <td> Revenue </td>
+                <td> @Html.TextBox("revenue") </td>
+            </tr>
+        </table>
+    }
+
+</div>

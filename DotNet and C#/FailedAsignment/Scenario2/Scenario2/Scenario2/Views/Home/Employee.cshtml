@@ -1,0 +1,181 @@
+﻿@model IEnumerable<EMPN0739.Models.Employee>
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<style>
+    /* Custom CSS styles */
+    .text-center {
+        text-align: center;
+    }
+
+    .table {
+        width: 100%;
+        border-collapse: collapse;
+        border: 1px solid #ddd;
+    }
+
+        .table th, .table td {
+            padding: 8px;
+            border-bottom: 1px solid #ddd;
+            text-align: left;
+        }
+
+    .row {
+        margin-bottom: 15px;
+    }
+
+    .col-1 {
+        width: 9.55%;
+        float: left;
+    }
+
+    .col-3 {
+        width: 25%;
+        float: left;
+    }
+
+    .form-table td {
+        padding: 5px;
+    }
+
+    .form-table input[type="text"] {
+        width: 100%;
+        padding: 8px;
+        box-sizing: border-box;
+    }
+
+    .form-table input[type="submit"] {
+        padding: 10px 20px;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+
+        .form-table input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+
+    /* Added colors */
+    .btn-filter {
+        background-color: #007bff;
+        color: white;
+        border: none;
+        padding: 8px 12px;
+        cursor: pointer;
+    }
+
+        .btn-filter:hover {
+            background-color: #0056b3;
+        }
+
+    .input-filter {
+        border: 1px solid #ced4da;
+        border-radius: 4px;
+        padding: 6px 12px;
+        box-sizing: border-box;
+    }
+
+    .form-table {
+        width: 100%;
+    }
+    .pform{
+        display:flex;
+        justify-content:space-around;
+    }
+</style>
+
+<div class="text-center">
+    <h2>Employees</h2>
+    <input type="button" class="col-1 btn-filter" onclick="AllEmployees()" value="All Employees">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Salary</th>
+                <th>Age</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.id</td>
+                    <td>@item.name</td>
+                    <td>@item.salary</td>
+                    <td>@item.age</td>
+                    <td>
+                        <form asp-controller="Home" asp-action="DeleteEmployee" method="post">
+                            <input type="hidden" name="id" value="@item.id" />
+                            <button type="submit" class="btn btn-danger">Delete</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    <br />
+    <div class="pform">
+    @using (Html.BeginForm("AddEmployees", "Home", FormMethod.Post))
+    {
+        <div class="row text-center">
+            <table class="form-table">
+                <tr>
+                    <td>ID</td>
+                    <td>@Html.TextBox("id", null, new { @class = "input-filter" })</td>
+                </tr>
+                <tr>
+                    <td>Name</td>
+                    <td>@Html.TextBox("name", null, new { @class = "input-filter" })</td>
+                </tr>
+                <tr>
+                    <td>Age</td>
+                    <td>@Html.TextBox("age", null, new { @class = "input-filter" })</td>
+                </tr>
+                <tr>
+                    <td>Salary</td>
+                    <td>@Html.TextBox("salary", null, new { @class = "input-filter" })</td>
+                </tr>
+            </table>
+            <input type="submit" value="Add" class="btn-filter" />
+        </div>
+    }
+    @using (Html.BeginForm("UpdateEmployee", "Home", FormMethod.Post))
+    {
+        <div class="row text-center">
+            <table class="form-table">
+                <tr>
+                    <td>ID</td>
+                    <td>@Html.TextBox("id", null, new { @class = "input-filter" })</td>
+                </tr>
+                <tr>
+                    <td>Name</td>
+                    <td>@Html.TextBox("name", null, new { @class = "input-filter" })</td>
+                </tr>
+                <tr>
+                    <td>Age</td>
+                    <td>@Html.TextBox("age", null, new { @class = "input-filter" })</td>
+                </tr>
+                <tr>
+                    <td>Salary</td>
+                    <td>@Html.TextBox("salary", null, new { @class = "input-filter" })</td>
+                </tr>
+            </table>
+            <input type="submit" value="Update" class="btn-filter" />
+        </div>
+    }
+    </div>
+</div>
+
+<script type="text/javascript">
+    function GoToEmployee() {
+        let id = document.getElementById("filter_id").value;
+        window.location.href = '/Home/Index/' + id;
+    }
+    function AllEmployees(id) {
+        window.location.href = '/Home/Index';
+    }
+</script>

@@ -1,7 +1,0 @@
-C:\Users\v-adimaurya\Desktop\EMPN0739_ADITYA_MAURYA_ASS\Scenario1\EMPN0739\EMPN0739\bin\Debug\EMPN0739.exe.config
-C:\Users\v-adimaurya\Desktop\EMPN0739_ADITYA_MAURYA_ASS\Scenario1\EMPN0739\EMPN0739\bin\Debug\EMPN0739.exe
-C:\Users\v-adimaurya\Desktop\EMPN0739_ADITYA_MAURYA_ASS\Scenario1\EMPN0739\EMPN0739\bin\Debug\EMPN0739.pdb
-C:\Users\v-adimaurya\Desktop\EMPN0739_ADITYA_MAURYA_ASS\Scenario1\EMPN0739\EMPN0739\obj\Debug\EMPN0739.csproj.AssemblyReference.cache
-C:\Users\v-adimaurya\Desktop\EMPN0739_ADITYA_MAURYA_ASS\Scenario1\EMPN0739\EMPN0739\obj\Debug\EMPN0739.csproj.CoreCompileInputs.cache
-C:\Users\v-adimaurya\Desktop\EMPN0739_ADITYA_MAURYA_ASS\Scenario1\EMPN0739\EMPN0739\obj\Debug\EMPN0739.exe
-C:\Users\v-adimaurya\Desktop\EMPN0739_ADITYA_MAURYA_ASS\Scenario1\EMPN0739\EMPN0739\obj\Debug\EMPN0739.pdb

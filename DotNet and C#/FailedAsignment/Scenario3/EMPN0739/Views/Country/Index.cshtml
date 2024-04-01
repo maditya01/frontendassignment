@@ -1,0 +1,67 @@
+﻿@model IEnumerable<EMPN0739.Models.Project>
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <table class="table">
+        <thead>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Status</th>
+        <th>Revenue</th>
+        </thead>
+        <tbody>
+            @foreach (var project in Model)
+            {
+                <tr>
+                    <td>@project.project_id</td>
+                    <td>@project.name</td>
+                    <td>@project.status</td>
+                    <td>@project.revenue</td>
+                    <td>
+                        @using (@Html.BeginForm("DeleteProject", "Project", FormMethod.Post))
+                        {
+                            @Html.Hidden("ToBeDeleted", project.project_id)
+                            <input type="submit" value="Delete">
+                        }
+                    </td>
+                    <td>
+                        @using (@Html.BeginForm("UpdateProject", "Project", FormMethod.Post))
+                        {
+                            @Html.Hidden("ToBeUpdated", project.project_id)
+                            <input type="submit" value="Update">
+                        }
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    <h2 class="display-5">Add Form</h2>
+    @using (@Html.BeginForm("AddProject", "Project", FormMethod.Post))
+    {
+        <table>
+            <tr>
+                <td> ID </td>
+                <td> @Html.TextBox("add_id") </td>
+            </tr>
+            <tr>
+                <td> Name </td>
+                <td> @Html.TextBox("add_name") </td>
+            </tr>
+            <tr>
+                <td> Status </td>
+                <td> @Html.TextBox("add_status") </td>
+            </tr>
+            <tr>
+                <td> Revenue </td>
+                <td> @Html.TextBox("add_revenue") </td>
+            </tr>
+        </table>
+        <input type="submit" value="Add">
+    }
+
+   
+</div>
